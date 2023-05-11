@@ -1,0 +1,15 @@
+children: []
+config:
+  args.get_height: true
+  args.imu_topic: /imu_raw
+  args.imu_upside_down: false
+  args.method_type: 0
+  args.offset: linear
+  args.output_log_data: false
+  args.queue_size: 1
+  args.sync: true
+  args.use_gnss: 1
+  args.use_imu: true
+  args.use_local_transform: false
+  args.use_odom: true
+plugin: refs/ndt_matching
